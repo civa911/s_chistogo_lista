@@ -43,13 +43,13 @@ header {
   justify-content: space-between;
   flex-direction: column;
   padding-inline-end: 24px;
+  font-size: 72px;
 }
 .cover {
   padding: 30px 0 0 20px;
 }
 .accent-span {
   display: flex;
-  font-size: 72px;
   line-height: 100%;
 }
 .text-left {
@@ -64,7 +64,7 @@ header {
 
 .text-right {
   display: flex;
-  justify-content: end;
+  justify-content: right;
 }
 
 .intro {
@@ -94,6 +94,42 @@ header {
   flex-direction: column;
   gap: 24px;
 }
+
+.reasons{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 32px;
+}
+.content-section__subtitle{
+  font-family: "EB Garamond";
+  font-size: 28px;
+  color: #131313;
+}
+.content-section__introduction{
+  font-size: 20px;
+  color: #131313;
+  font-family: "inter regular";
+}
+
+.content-section__list{
+  display: flex;
+  flex-direction: column;
+  padding-left:8px;
+  gap: 16px;
+  
+}
+.content-section__list-item{
+
+  font-family: "Inter regular"; 
+}
+
+.content-section__list-accent{
+  font-family: "Inter";
+}
+
+
+
 .content-section {
   box-sizing: border-box;
   width: 360px;
@@ -101,6 +137,7 @@ header {
 }
 .content-section_theme_dark {
   background: #131313;
+  
 }
 
 .content-section_theme_bright {
