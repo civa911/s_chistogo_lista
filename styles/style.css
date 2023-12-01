@@ -65,7 +65,7 @@ header {
 /* первая секция */
 .cover__title {
   display: flex;
-  background-image: url(images/cover.svg);
+  background-image: url("/images/cover.svg");
   background-repeat: round;
   background-size: cover;
   color: #f5f5f5;
@@ -111,7 +111,7 @@ header {
 .content-section__introduction {
   font-size: 20px;
   line-height: 27px;
-  font-family: "inter regular";
+  font-family: "Inter regular";
 }
 
 .content-section__list {
